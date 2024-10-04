@@ -1,6 +1,6 @@
 # Aquarius Particle Tagging (Cooper et al. 2010)
-#
-# https://github.com/nthu-ga/aquarius-halos
+
+https://github.com/nthu-ga/aquarius-halos
 
 This repository contains a description of the datasets presented in Pu et al. 2024:
 
