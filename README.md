@@ -1,4 +1,4 @@
-# Aquarius Particle Tagging (Cooper et al. 2010)
+# Aquarius Particle Tagging Data
 
 https://github.com/nthu-ga/aquarius-halos
 
@@ -17,6 +17,6 @@ The Bullock & Johnston (2005) and Auriga data are avaialble elsewhere as describ
 
 ## Aquarius
 
-## Bullock & Johnston (2004)
+## Bullock & Johnston (2005)
 
 ## Auriga
