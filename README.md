@@ -2,10 +2,10 @@
 
 https://github.com/nthu-ga/aquarius-halos
 
-This repository contains a description of the datasets presented in Pu et al. 2024:
+This repository contains a description of the datasets presented in Pu et al. (2024):
 
-- The Aquarius suite of 6 high-resolution stellar halos made with the STINGS particle tagging technique. The data themselves can be downloaded from the following Zenodo link:
-- Scripts to convert the Bullock & Johnston (2005) stellar halo models to the same format as the Aquarius data;
+- The Aquarius suite of 6 high-resolution stellar halos made with the STINGS particle tagging technique. These data can be downloaded from https://doi.org/10.5281/zenodo.13888986
+- A python script to convert the Bullock & Johnston (2005) stellar halo models to the same format as the Aquarius data;
 - Lists of particle progenitor IDs for the Auriuga L3 and L4 simulations; note that these are slightly different from those provided as part of the Auriga data release and described in Grand et al. (2024).
 
 Please cite some combination of the following references as appropriate:
