@@ -20,3 +20,7 @@ The Bullock & Johnston (2005) and Auriga data are avaialble elsewhere as describ
 ## Bullock & Johnston (2005)
 
 ## Auriga
+
+As described in [Grand et al. 2024](https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1814G), the Auriga particle data can be downloaded from the following URL:
+
+https://wwwmpa.mpa-garching.mpg.de/auriga
