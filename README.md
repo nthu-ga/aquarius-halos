@@ -23,7 +23,7 @@ The models described in [Bullock & Johnston (2005)](http://adsabs.harvard.edu/ab
 
 http://user.astro.columbia.edu/~kvj/halos/
 
-In this repository we provide a python script that, when run on the models available from the URL above, cover those data to HDF5 format with the same data model as the Aquarius data we provide.
+We provide a python script that, when run on the models available from the URL above, cover those data to HDF5 format with the same data model as the Aquarius data we provide.
 
 `Example of runnning the code...`
 
