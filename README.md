@@ -25,6 +25,8 @@ http://user.astro.columbia.edu/~kvj/halos/
 
 In this repository we provide a python script that, when run on the models available from the URL above, cover those data to HDF5 format with the same data model as the Aquarius data we provide.
 
+`Example of runnning the code...`
+
 We note that additional data on the BJ05 models are avialable as part of the the Galaxia code:
 
 https://galaxia.sourceforge.net/
