@@ -19,7 +19,16 @@ The Bullock & Johnston (2005) and Auriga data are avaialble elsewhere as describ
 
 ## Bullock & Johnston (2005)
 
-http://adsabs.harvard.edu/abs/2005ApJ...635..931B
+The models described in [Bullock & Johnston (2005)](http://adsabs.harvard.edu/abs/2005ApJ...635..931B) can be downloaded from the following URL:
+
+http://user.astro.columbia.edu/~kvj/halos/
+
+In this repository we provide a python script that, when run on the models available from the URL above, cover those data to HDF5 format with the same data model as the Aquarius data we provide.
+
+We note that additional data on the BJ05 models are avialable as part of the the Galaxia code:
+
+https://galaxia.sourceforge.net/
+
 
 ## Auriga
 
