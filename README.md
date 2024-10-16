@@ -23,7 +23,8 @@ https://doi.org/10.5281/zenodo.13888986
 
 The public data, as written in the appendix of Pu et al. (2024), have the following structure:
 
-`_ Header
+``
+_ Header
 |_ PartType0
     |_ Coordinates
     |_ LastTreeIndex
@@ -37,7 +38,8 @@ The public data, as written in the appendix of Pu et al. (2024), have the follow
     |_ Mass
     |_ ParticleIDs
     |_ SubgroupNr
-    |_ Velocities` 
+    |_ Velocities
+`` 
 
 
 
