@@ -12,7 +12,7 @@ for p in plist:
     output.create_group(p)
     if p == 'PartType0':
         lim = (flag < 0)
-        sgnr = np.ones(len(inputdata.T[0][lim]))
+        sgnr = np.zeros(len(inputdata.T[0][lim]))
         output[p].create_dataset('SubgroupNr',data=sgnr)
     elif p == 'PartType1':
         lim = (flag >= 0)
