@@ -13,7 +13,7 @@ Please cite some combination of the following references, as appropriate:
 - [Cooper et al. (2010)](http://adsabs.harvard.edu/abs/2010MNRAS.406..744C) for the Aquarius models themselves (in addition to Pu et al.);
 - [Cooper et al. (2017)](https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.1691C) for the most complete description of the STINGS particle tagging methodology;
 
-The Bullock & Johnston (2005) and Auriga data are avaialble elsewhere as described below. 
+The Bullock & Johnston (2005) and Auriga data are available elsewhere as described below. 
 
 ## Aquarius
 
@@ -24,7 +24,7 @@ https://doi.org/10.5281/zenodo.13888986
 The public data, as written in the appendix of Pu et al. (2024), have the following structure:
 
 ```
-_ Header
+ _ Header
 |_ PartType0
     |_ Coordinates
     |_ LastTreeIndex
@@ -32,7 +32,7 @@ _ Header
     |_ ParticleIDs
     |_ SubgroupNr
     |_ Velocities
-|_ ParType1    
+|_ PartType1    
     |_ Coordinates    
     |_ LastTreeIndex    
     |_ Mass
@@ -57,7 +57,7 @@ To run the code, simply use the following command:
 
 `python Covert_BJ2Aq.py BJhalofile.dat outputname.hdf5`
 
-We note that additional data on the BJ05 models are avialable as part of the the Galaxia code:
+We note that additional data on the BJ05 models are available as part of the Galaxia code:
 
 https://galaxia.sourceforge.net/
 
@@ -67,4 +67,16 @@ As described in [Grand et al. 2024](https://ui.adsabs.harvard.edu/abs/2024MNRAS.
 
 https://wwwmpa.mpa-garching.mpg.de/auriga
 
-Note that our TreeID is different to the public data. We provide HDF5 files of our TreeID and the ParticleIDs for reference.
+Note again that Pu et al. 2024 work with a slightly different set of TreeID instead of the public data. We provide HDF5 files of our TreeID and the ParticleIDs for reference, which can be downloaded from the following URL:
+
+https://doi.org/10.5281/zenodo.13943963
+
+Even though only level 4 Auriga particle data was used in Pu et al. 2024, we also provide level 3 particles for comparison. Each file has the following structure for halo X:
+
+```
+ _ halo_X
+    |_ ParticleIDs
+    |_ TreeID
+```
+
+Note that only halo 6, 16, 21, 23, 24, 27 are available in level 3.
