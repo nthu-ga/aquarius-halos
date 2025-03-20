@@ -9,7 +9,7 @@ This repository contains a description of the datasets presented in [Pu et al. (
 - Lists of particle progenitor IDs for the Auriuga L3 and L4 simulations; note that these are slightly different from those provided as part of the Auriga data release and described in [Grand et al. 2024](https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1814G). These data can be downloaded from [https://doi.org/10.5281/zenodo.13943963](https://doi.org/10.5281/zenodo.13943963).
 
 > [!TIP]
-> If you're interested in a much larger particle tagging simulation with slighlty lower resolution but many more galaxies, using the same STINGS technique, have a look at: https://github.com/nthu-ga/aquarius-halos
+> If you're interested in a much larger particle tagging simulation with slighlty lower resolution but many more galaxies, using the same STINGS technique, please see: https://github.com/nthu-ga/stings-data
 
 If you use the data in this repository, please cite some combination of the following references, as appropriate:
 - [Pu et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P) for this repository and the Aquarius data (a link to this webpage and/or the Zenodo DOI for the Aquarius data is appreciated)
