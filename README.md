@@ -2,7 +2,7 @@
 
 https://github.com/nthu-ga/aquarius-halos
 
-This repository contains a description of the datasets presented in [Pu et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P):
+This repository contains a description of the datasets presented in [Pu et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025ApJ...980...63P):
 
 - The Aquarius suite of 6 high-resolution stellar halos made with the STINGS particle tagging technique. These data can be downloaded from [https://doi.org/10.5281/zenodo.13888986](https://doi.org/10.5281/zenodo.13888986)
 - A python script to convert the [Bullock & Johnston (2005)](http://adsabs.harvard.edu/abs/2005ApJ...635..931B) stellar halo models to the same format as the Aquarius data;
@@ -12,7 +12,7 @@ This repository contains a description of the datasets presented in [Pu et al. (
 > If you're interested in a much larger particle tagging simulation with slighlty lower resolution but many more galaxies, using the same STINGS technique, please see: https://github.com/nthu-ga/stings-data
 
 If you use the data in this repository, please cite some combination of the following references, as appropriate:
-- [Pu et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P) for this repository and the Aquarius data (a link to this webpage and/or the Zenodo DOI for the Aquarius data is appreciated)
+- [Pu et al. (2025)]([https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P](https://ui.adsabs.harvard.edu/abs/2025ApJ...980...63P)) for this repository and the Aquarius data (a link to this webpage and/or the Zenodo DOI for the Aquarius data is appreciated)
 - [Cooper et al. (2010)](http://adsabs.harvard.edu/abs/2010MNRAS.406..744C) for the Aquarius models themselves (in addition to Pu et al.);
 - [Cooper et al. (2017)](https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.1691C) for the most complete description of the STINGS particle tagging methodology;
 
@@ -24,7 +24,7 @@ The Aquarius models from [Cooper et al. (2010)](http://adsabs.harvard.edu/abs/20
 
 [https://doi.org/10.5281/zenodo.13888986](https://doi.org/10.5281/zenodo.13888986)
 
-The public data, as described in the appendix of [Pu et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P), has the following structure:
+The public data, as described in the appendix of [Pu et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025ApJ...980...63P), has the following structure:
 
 ```
  _ Header
@@ -67,11 +67,11 @@ As described in [Grand et al. 2024](https://ui.adsabs.harvard.edu/abs/2024MNRAS.
 
 https://wwwmpa.mpa-garching.mpg.de/auriga
 
-Note that [Pu et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P) work with a slightly different set of TreeID instead of those provided by the public data release of the Auriga project. We provide HDF5 files of our TreeID and the ParticleIDs for reference, which can be downloaded from the following URL:
+Note that [Pu et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025ApJ...980...63P) work with a slightly different set of TreeID instead of those provided by the public data release of the Auriga project. We provide HDF5 files of our TreeID and the ParticleIDs for reference, which can be downloaded from the following URL:
 
 https://doi.org/10.5281/zenodo.13943963
 
-Although only the level 4 Auriga data were used in [Pu et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv241013491P), we also provide level 3 progenitor ID lists. Each file has the following structure, with datasets corresponding to each Auriga halo:
+Although only the level 4 Auriga data were used in [Pu et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025ApJ...980...63P), we also provide level 3 progenitor ID lists. Each file has the following structure, with datasets corresponding to each Auriga halo:
 
 ```
  _ halo_X
